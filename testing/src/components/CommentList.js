@@ -1,5 +1,5 @@
 import React from 'react';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 
 class CommentList extends React.Component {
 
@@ -12,9 +12,8 @@ class CommentList extends React.Component {
     render() {
         return (
             <div>
-                <ul>
-                    {this.renderComments()}
-                </ul>
+                <h4>Comment List</h4>
+                <ul>{this.renderComments()}</ul>
             </div>
         )
     }
